@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TransHub - Track Shipment</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">TransHub</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="storage.html">Storage</a></li>
+        <li><a href="cargo.html">Cargo</a></li>
+        <li><a href="logistics.html">Logistics</a></li>
+        <li><a href="services.html">All Services</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="track.html" class="active">Track Shipment</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="page-title">
+    <h1>Track Your Shipment</h1>
+    <p>Enter your tracking number to see the status of your delivery.</p>
+  </section>
+
+  <section class="content">
+    <form>
+      <label for="trackingNumber">Tracking Number:</label><br />
+      <input type="text" id="trackingNumber" name="trackingNumber" placeholder="e.g. TRK123456789"><br /><br />
+
+      <button type="submit">Track</button>
+    </form>
+    <p style="margin-top: 20px; color: gray;">(This is a demo page. Tracking functionality is not connected.)</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 TransHub. All rights reserved.</p>
+  </footer>
+</body>
+</html>
